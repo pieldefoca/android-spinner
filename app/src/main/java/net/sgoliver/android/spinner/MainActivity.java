@@ -27,11 +27,11 @@ public class MainActivity extends ActionBarActivity {
 
         //Alternativa 1: Array java
         ArrayAdapter<String> adaptador = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, datos);
-        /*
+
         //Alternativa 2: Recurso XML de tipo string-array
         //ArrayAdapter<CharSequence> adaptador = ArrayAdapter.createFromResource(this, R.array.valores_array, android.R.layout.simple_spinner_item);
         // Un comentario para probar git
-        */
+
         adaptador.setDropDownViewResource(
                 android.R.layout.simple_spinner_dropdown_item);
 
